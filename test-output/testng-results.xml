@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="98036" started-at="2020-09-19T11:56:02Z" finished-at="2020-09-19T11:57:40Z">
+    <groups>
+      <group name="SanityTest">
+        <method signature="AppTest.verifyTitle()[pri:0, instance:com.fullstack.batch3.AppTest@654f0d9c]" name="verifyTitle" class="com.fullstack.batch3.AppTest"/>
+      </group> <!-- SanityTest -->
+      <group name="RegressionTest">
+        <method signature="AppTest.loginWithCorrectCredentials()[pri:1, instance:com.fullstack.batch3.AppTest@654f0d9c]" name="loginWithCorrectCredentials" class="com.fullstack.batch3.AppTest"/>
+      </group> <!-- RegressionTest -->
+    </groups>
+    <test name="Default test" duration-ms="98036" started-at="2020-09-19T11:56:02Z" finished-at="2020-09-19T11:57:40Z">
+      <class name="com.fullstack.batch3.AppTest">
+        <test-method status="PASS" signature="setUpAndInitialize()[pri:0, instance:com.fullstack.batch3.AppTest@654f0d9c]" name="setUpAndInitialize" is-config="true" duration-ms="6917" started-at="2020-09-19T11:56:02Z" finished-at="2020-09-19T11:56:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpAndInitialize -->
+        <test-method status="PASS" signature="testJSScript()[pri:0, instance:com.fullstack.batch3.AppTest@654f0d9c]" name="testJSScript" duration-ms="5041" started-at="2020-09-19T11:56:09Z" finished-at="2020-09-19T11:56:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testJSScript -->
+        <test-method status="PASS" signature="cleanUpActivities(org.testng.ITestResult)[pri:0, instance:com.fullstack.batch3.AppTest@654f0d9c]" name="cleanUpActivities" is-config="true" duration-ms="1561" started-at="2020-09-19T11:56:14Z" finished-at="2020-09-19T11:56:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testJSScript status=SUCCESS method=AppTest.testJSScript()[pri:0, instance:com.fullstack.batch3.AppTest@654f0d9c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUpActivities -->
+        <test-method status="PASS" signature="setUpAndInitialize()[pri:0, instance:com.fullstack.batch3.AppTest@654f0d9c]" name="setUpAndInitialize" is-config="true" duration-ms="4122" started-at="2020-09-19T11:56:16Z" finished-at="2020-09-19T11:56:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpAndInitialize -->
+        <test-method status="PASS" signature="testNavigation()[pri:0, instance:com.fullstack.batch3.AppTest@654f0d9c]" name="testNavigation" duration-ms="35371" started-at="2020-09-19T11:56:20Z" finished-at="2020-09-19T11:56:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNavigation -->
+        <test-method status="PASS" signature="cleanUpActivities(org.testng.ITestResult)[pri:0, instance:com.fullstack.batch3.AppTest@654f0d9c]" name="cleanUpActivities" is-config="true" duration-ms="1620" started-at="2020-09-19T11:56:55Z" finished-at="2020-09-19T11:56:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testNavigation status=SUCCESS method=AppTest.testNavigation()[pri:0, instance:com.fullstack.batch3.AppTest@654f0d9c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUpActivities -->
+        <test-method status="PASS" signature="setUpAndInitialize()[pri:0, instance:com.fullstack.batch3.AppTest@654f0d9c]" name="setUpAndInitialize" is-config="true" duration-ms="4158" started-at="2020-09-19T11:56:57Z" finished-at="2020-09-19T11:57:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpAndInitialize -->
+        <test-method status="PASS" signature="testSwitches()[pri:0, instance:com.fullstack.batch3.AppTest@654f0d9c]" name="testSwitches" duration-ms="10927" started-at="2020-09-19T11:57:01Z" finished-at="2020-09-19T11:57:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSwitches -->
+        <test-method status="PASS" signature="cleanUpActivities(org.testng.ITestResult)[pri:0, instance:com.fullstack.batch3.AppTest@654f0d9c]" name="cleanUpActivities" is-config="true" duration-ms="1578" started-at="2020-09-19T11:57:12Z" finished-at="2020-09-19T11:57:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testSwitches status=SUCCESS method=AppTest.testSwitches()[pri:0, instance:com.fullstack.batch3.AppTest@654f0d9c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUpActivities -->
+        <test-method status="PASS" signature="setUpAndInitialize()[pri:0, instance:com.fullstack.batch3.AppTest@654f0d9c]" name="setUpAndInitialize" is-config="true" duration-ms="4176" started-at="2020-09-19T11:57:14Z" finished-at="2020-09-19T11:57:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpAndInitialize -->
+        <test-method status="PASS" signature="verifyTitle()[pri:0, instance:com.fullstack.batch3.AppTest@654f0d9c]" name="verifyTitle" duration-ms="4193" started-at="2020-09-19T11:57:18Z" description="Verify that the title of website is correct" finished-at="2020-09-19T11:57:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTitle -->
+        <test-method status="PASS" signature="cleanUpActivities(org.testng.ITestResult)[pri:0, instance:com.fullstack.batch3.AppTest@654f0d9c]" name="cleanUpActivities" is-config="true" duration-ms="1606" started-at="2020-09-19T11:57:22Z" finished-at="2020-09-19T11:57:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyTitle status=SUCCESS method=AppTest.verifyTitle()[pri:0, instance:com.fullstack.batch3.AppTest@654f0d9c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUpActivities -->
+        <test-method status="PASS" signature="setUpAndInitialize()[pri:0, instance:com.fullstack.batch3.AppTest@654f0d9c]" name="setUpAndInitialize" is-config="true" duration-ms="4113" started-at="2020-09-19T11:57:24Z" finished-at="2020-09-19T11:57:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpAndInitialize -->
+        <test-method status="PASS" signature="loginWithCorrectCredentials()[pri:1, instance:com.fullstack.batch3.AppTest@654f0d9c]" name="loginWithCorrectCredentials" duration-ms="11011" started-at="2020-09-19T11:57:28Z" description="Verify that login is working correctly with correct username and password" finished-at="2020-09-19T11:57:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithCorrectCredentials -->
+        <test-method status="PASS" signature="cleanUpActivities(org.testng.ITestResult)[pri:0, instance:com.fullstack.batch3.AppTest@654f0d9c]" name="cleanUpActivities" is-config="true" duration-ms="1610" started-at="2020-09-19T11:57:39Z" finished-at="2020-09-19T11:57:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginWithCorrectCredentials status=SUCCESS method=AppTest.loginWithCorrectCredentials()[pri:1, instance:com.fullstack.batch3.AppTest@654f0d9c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUpActivities -->
+      </class> <!-- com.fullstack.batch3.AppTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

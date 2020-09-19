@@ -1,0 +1,7 @@
+com\fullstack\batch3\common\DataUtils.class
+com\fullstack\batch3\CommonPage.class
+com\fullstack\batch3\LoginPage.class
+com\fullstack\batch3\BasePage.class
+com\fullstack\batch3\ProfilePage.class
+com\fullstack\batch3\common\TestUtils.class
+com\fullstack\batch3\ObjectRepository.class
